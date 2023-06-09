@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Ejercicio 3</title>
+    <link rel="icon" href="./img/logo4.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <section class="container">
+            <section class="menu" id="menu">
+                <section class="logo">
+                    <img src="./img/logo4.png" id="icon" alt="Logo">
+                </section>
+                <h4>Ejercicio 3</h4>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="ejercicio1.html">Ejercicio 1</a></li>
+                    <li><a href="ejercicio2.html">Ejercicio 2</a></li>
+                    <li><a href="ejercicio4.html">Ejercicio 4</a></li>
+                    <li><a href="ejercicio5.html">Ejercicio 5</a></li>
+                    <li><a href="ejercicio6.html">Ejercicio 6</a></li>
+                    <li><a href="ejercicio7.html">Ejercicio 7</a></li>
+                </ul>
+            </section>
+            <section class="content">
+                <section class="contenedor">
+                    <h1>EJERCICIOS DE JS</h1>
+                    <h2>Ejercicios Lineales</h2>
+                    <h3>Tercer Punto</h3>
+                    <p>Realiza las operaciones de suma, resta, multiplicación, división, y módulo pidiéndole solo
+                    2 números al usuario.                
+                    </p>
+                    <h4>Suma</h4>
+                    <form id="formula">
+                      <label for="num1">Número 1</label><br>
+                      <input type="text" class="dato1" id="num1" required placeholder="Ingrese valor"> <br><br>
+                      <label for="num2">Número 2</label><br>
+                      <input type="text" class="dato1" id="num2" required placeholder="Ingrese valor"> <br><br>
+        
+                      <button type="button" id="btn" onclick="suma()">SUMAR</button>
+                      <button type="button" id="btn" onclick="resta()">RESTAR</button>
+                      <button type="button" id="btn" onclick="multiplicacion()">MULTIPLICAR</button>
+                      <button type="button" id="btn" onclick="division()">DIVIDIR</button>
+                    </form>
+                    <h2 class="respuesta" id="resultado"></h2>
+                </section>
+            </section>
+        </section>
+    
+        <script src="./js/ejercicio3.js"></script>
+    
+    </main>
+</body>
+</html>

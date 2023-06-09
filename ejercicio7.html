@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Ejercicio 7</title>
+    <link rel="icon" href="./img/logo4.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <section class="container">
+            <section class="menu" id="menu">
+                <section class="logo">
+                    <img src="./img/logo4.png" id="icon" alt="Logo">
+                </section>
+                <h4>Ejercicio 7</h4>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="ejercicio1.html">Ejercicio 1</a></li>
+                    <li><a href="ejercicio2.html">Ejercicio 2</a></li>
+                    <li><a href="ejercicio3.html">Ejercicio 3</a></li>
+                    <li><a href="ejercicio4.html">Ejercicio 4</a></li>
+                    <li><a href="ejercicio5.html">Ejercicio 5</a></li>
+                    <li><a href="ejercicio6.html">Ejercicio 6</a></li>
+                </ul>
+            </section>
+            <section class="content">
+                <section class="contenedor">
+                    <h2>EJERCICIOS DE JS</h2>
+                    <h2>Ejercicios Lineales</h2>
+                    <h3>Septimo Punto</h3>
+                    <p>
+                        Calcule el promedio de 3 notas de un alumno, el rango de cada nota es del 1 al 5
+                    </p>
+                    <form id="Form">
+                        <label for="nota1">Nota 1</label><br />
+                        <input type="text" class="dato1" id="nota1" required placeholder="Ingrese valor" />
+                        <br /><br />
+                        <label for="nota2">Nota 2</label><br />
+                        <input type="text" class="dato1" id="nota2" required placeholder="Ingrese valor" />
+                        <br><br>
+                        <label for="nota3">Nota 3</label><br />
+                        <input type="text" class="dato1" id="nota3" required placeholder="Ingrese valor" />
+                        <br /><br>
+              
+                        <button type="button" id="btn" onclick="total()">CALCULAR</button>
+                      </form>
+                    <h2 class="respuesta" id="total_notas"></h2>
+                </section>
+            </section>
+        </section>
+    
+        <script src="./js/ejercicio7.js"></script>
+    </main>
+</body>
+</html>

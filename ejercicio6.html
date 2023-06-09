@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Ejercicio 6</title>
+    <link rel="icon" href="./img/logo4.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+   <main>
+    <section class="container">
+        <section class="menu" id="menu">
+            <section class="logo">
+                <img src="./img/logo4.png" id="icon" alt="Logo">
+            </section>
+            <h4>Ejercicio 6</h4>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="ejercicio1.html">Ejercicio 1</a></li>
+                <li><a href="ejercicio2.html">Ejercicio 2</a></li>
+                <li><a href="ejercicio3.html">Ejercicio 3</a></li>
+                <li><a href="ejercicio4.html">Ejercicio 4</a></li>
+                <li><a href="ejercicio5.html">Ejercicio 5</a></li>
+                <li><a href="ejercicio7.html">Ejercicio 7</a></li>
+            </ul>
+        </section>
+        <section class="content">
+            <section class="contenedor">
+                <h2>EJERCICIOS DE JS</h2>
+                <h2>Ejercicios Lineales</h2>
+                <h3>Sexto Punto</h3>
+                <p>
+                Calcule el porcentaje de alumnos y alumnas de un salón de clase,
+                digitando el total de alumnos hombres y mujeres
+                </p>
+                <form id="Form">
+                <label for="hombre">Total Hombres</label><br />
+                <input type="text" class="dato1" id="hombre" required placeholder="Ingrese valor" />
+                <br /><br />
+                <label for="mujer">Total Mujeres</label><br />
+                <input type="text" class="dato1" id="mujer" required placeholder="Ingrese valor" />
+                <br><br>
+
+                <button type="button" id="btn" onclick="total()">CALCULAR</button>
+                </form>
+                <h2 class="respuesta" id="total_alumnos"></h2>
+                <h2 class="respuesta" id="totalalumnos_hombre"></h2>
+                <h2 class="respuesta" id="totalalumnos_mujer"></h2>
+            </section>
+        </section>
+    </section>
+
+    <script src="./js/ejercicio6.js"></script>
+   </main>
+</body>
+</html>
